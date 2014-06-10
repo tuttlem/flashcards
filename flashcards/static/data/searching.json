@@ -1,0 +1,175 @@
+{
+   "questions": [
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Depth First Search (DFS)",
+            "infoLink": "http://en.wikipedia.org/wiki/Depth-first_search"
+         },
+         "answer": {
+            "textCopy": "O(|E| + |V|)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Depth First Search (DFS)",
+            "infoLink": "http://en.wikipedia.org/wiki/Depth-first_search"
+         },
+         "answer": {
+            "textCopy": "O(|V|)"
+         }
+      },      
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Breadth First Search (BFS)",
+            "infoLink": "http://en.wikipedia.org/wiki/Breadth-first_search"
+         },
+         "answer": {
+            "textCopy": "O(|E| + |V|)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Breadth First Search (BFS)",
+            "infoLink": "http://en.wikipedia.org/wiki/Breadth-first_search"
+         },
+         "answer": {
+            "textCopy": "O(|V|)"
+         }
+      },      
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Binary Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(log(n))"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Binary Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(log(n))"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Binary Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Linear Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Brute-force_search"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Linear Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Brute-force_search"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Linear Search",
+            "infoLink": "http://en.wikipedia.org/wiki/Brute-force_search"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },                  
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Shortest path search Dijkstra using a min-heap",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O((|V| + |E|) log |V|)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Shortest path search Dijkstra using a min-heap",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O((|V| + |E|) log |V|)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Shortest path search Dijkstra using a min-heap",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V|)"
+         }
+      },  
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Shortest path search Dijkstra using a unsorted array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V|^2)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Shortest path search Dijkstra using a unsorted array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V|^2)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Shortest path search Dijkstra using a unsorted array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V|)"
+         }
+      },                       
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Shortest path search Bellman-Ford",
+            "infoLink": "http://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V||E|)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Shortest path search Bellman-Ford",
+            "infoLink": "http://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V||E|)"
+         }
+      },            
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Shortest path search Bellman-Ford",
+            "infoLink": "http://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm"
+         },
+         "answer": {
+            "textCopy": "O(|V|)"
+         }
+      }
+   ]
+}

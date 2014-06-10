@@ -1,0 +1,293 @@
+{
+   "questions": [
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Quicksort",
+            "infoLink": "http://en.wikipedia.org/wiki/Quicksort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Quicksort",
+            "infoLink": "http://en.wikipedia.org/wiki/Quicksort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Quicksort",
+            "infoLink": "http://en.wikipedia.org/wiki/Quicksort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Quicksort",
+            "infoLink": "http://en.wikipedia.org/wiki/Quicksort"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },      
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Mergesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Merge_sort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Mergesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Merge_sort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Mergesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Merge_sort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Mergesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Merge_sort"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Heapsort",
+            "infoLink": "http://en.wikipedia.org/wiki/Heapsort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Heapsort",
+            "infoLink": "http://en.wikipedia.org/wiki/Heapsort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Heapsort",
+            "infoLink": "http://en.wikipedia.org/wiki/Heapsort"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Heapsort",
+            "infoLink": "http://en.wikipedia.org/wiki/Heapsort"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },  
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Bubblesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bubble_sort"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Bubblesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bubble_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Bubblesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bubble_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Bubblesort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bubble_sort"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },          
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Insertion Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Insertion_sort"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Insertion Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Insertion_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Insertion Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Insertion_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Insertion Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Insertion_sort"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },   
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Select Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Selection_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Select Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Selection_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Select Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Selection_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Select Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Selection_sort"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },                   
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Bucket Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bucket_sort"
+         },
+         "answer": {
+            "textCopy": "O(n+k)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Bucket Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bucket_sort"
+         },
+         "answer": {
+            "textCopy": "O(n+k)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Bucket Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bucket_sort"
+         },
+         "answer": {
+            "textCopy": "O(n^2)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Bucket Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Bucket_sort"
+         },
+         "answer": {
+            "textCopy": "O(nk)"
+         }
+      },                   
+      {
+         "question": {
+            "textCopy": "Best case time complexity of a Radix Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Radix_sort"
+         },
+         "answer": {
+            "textCopy": "O(nk)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity of a Radix Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Radix_sort"
+         },
+         "answer": {
+            "textCopy": "O(nk)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity of a Radix Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Radix_sort"
+         },
+         "answer": {
+            "textCopy": "O(nk)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case auxiliary space complexity of a Radix Sort",
+            "infoLink": "http://en.wikipedia.org/wiki/Radix_sort"
+         },
+         "answer": {
+            "textCopy": "O(n+k)"
+         }
+      }
+   ]
+}
+

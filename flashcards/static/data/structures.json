@@ -1,0 +1,891 @@
+{
+   "questions": [
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Basic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Array_data_structure"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Basic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Array_data_structure"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Basic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Array_data_structure"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Basic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Array_data_structure"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity for a Basic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Array_data_structure"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Dynamic Array",
+            "infoLink": "http://en.wikipedia.org/wiki/Dynamic_array"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Singly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Doubly-Linked List",
+            "infoLink": "http://en.wikipedia.org/wiki/Doubly_linked_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Skip List",
+            "infoLink": "http://en.wikipedia.org/wiki/Skip_list"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(1)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Hash Table",
+            "infoLink": "http://en.wikipedia.org/wiki/Hash_table"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Binary Search Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Binary_search_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Cartesian Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Cartesian_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a B-Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/B_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Red-Black Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/Red-black_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a Splay Tree",
+            "infoLink": "https://en.wikipedia.org/wiki/Splay_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when indexing a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity when searching a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on insertion into a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Average case time complexity on deletion from a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when indexing a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity when searching a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on insertion into a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case time complexity on deletion from a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n log(n))"
+         }
+      },
+      {
+         "question": {
+            "textCopy": "Worst case space complexity of a AVL Tree",
+            "infoLink": "http://en.wikipedia.org/wiki/AVL_tree"
+         },
+         "answer": {
+            "textCopy": "O(n)"
+         }
+      }
+   ]
+}

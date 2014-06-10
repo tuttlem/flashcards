@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+{% set active_page = "test" %}
+
+{% block scripts %}
+   <script src="{{ url_for('static', filename='js/testing.js') }}"></script>
+   <script src="{{ url_for('static', filename='js/test.js') }}"></script>
+{% endblock %}
+
+{% block styles %}
+   <style>
+      .starter-template {
+        padding: 40px 15px;
+        text-align: center;
+      }   
+   </style>
+{% endblock %}
+
+{% block content %}
+   <div data-bind="with: configurator, visible: viewMode() == 'configure'" style="display: none">
+      <h1>Configure your test</h1>
+      <p class="lead">Start your flashcard session by selecting a subject to be tested on and the type of test to run</p>
+      <form class="form-inline" role="form">
+         <div class="form-group" data-bind="validationElement: subject">
+            <select data-bind="options: subjects, optionsCaption: 'Select a subject . . .', optionsText: 'name', value: subject" class="form-control"></select>
+         </div>
+
+         <div class="form-group" data-bind="validationElement: testType">
+            <select data-bind="options: testTypes, optionsCaption: 'Select a type of test . . .', optionsText: 'name', value: testType" class="form-control"></select>
+         </div>
+
+         <div class="form-group" data-bind="visible: needsSample, validationElement: sampleSize">
+            <select data-bind="options: sampleSizes, optionsCaption: 'Select a sample size . . .', optionsText: 'name', value: sampleSize" class="form-control"></select>
+         </div>
+
+         <div class="form-group" data-bind="visible: needsDuration, validationElement: duration">
+            <select data-bind="options: durations, optionsCaption: 'Select a duration . . .', optionsText: 'name', value: duration" class="form-control"></select>
+         </div>
+
+         <button class="btn btn-success" data-bind="click: $root.startTest">Start &raquo;</button>
+      </form>
+      <br />
+      <div data-bind="with: duration">
+         <p data-bind="text: description"></p>
+      </div>
+   </div>
+
+   <div class="container" data-bind="with: currentQuestion, visible: viewMode() == 'running'" style="display: none">
+      <div class="panel panel-default">
+         <div class="starter-template">
+            <h1 data-bind="text: $parent.questionHeader"></h1>
+            <p data-bind="text: question.textCopy" class="lead"></p>
+
+            <div class="btn-group btn-group-lg">
+               <!-- ko foreach: $parent.answerSet -->
+               <button type="button" class="btn btn-default" data-bind="text: textCopy, click: $root.answerQuestion"></button>
+               <!-- /ko -->
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="container" data-bind="visible: viewMode() == 'finished'" style="display: none">
+
+      <div class="starter-template">
+         <h1>You're done for this session</h1>
+         <p class="lead">Check over your results below to see what you need to brush up on!</p>
+
+         <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-default" data-bind="click: sameAgain">Same test again</button>
+            <button type="button" class="btn btn-default" data-bind="click: configureTest">Different type of test</button>
+         </div>
+
+      </div>
+
+      <ul class="list-group" data-bind="foreach: answered">
+         <li class="list-group-item" data-bind="css: { 'list-group-item-success': $parent.isCorrect($data), 'list-group-item-danger': !$parent.isCorrect($data) }">
+            <i class="glyphicon glyphicon-thumbs-up pull-right" data-bind="visible: $parent.isCorrect($data)"></i>
+            <i class="glyphicon glyphicon-thumbs-down pull-right" data-bind="visible: !$parent.isCorrect($data)"></i>
+            <h4 data-bind="text: $data.q.question.textCopy"></h4>
+            <p class="list-group-item-text" data-bind="visible: !$parent.isCorrect($data)">
+               You answered <em data-bind="text: $data.a.textCopy"></em>, however the actual answer was <strong data-bind="text: $data.q.answer.textCopy"></strong>. You can read about this <a class="btn-link" data-bind="attr: { href: $data.q.question.infoLink }">here</a>.
+            </p>
+            <p class="list-group-item-text" data-bind="visible: $parent.isCorrect($data)">
+               You picked the right answer of <strong data-bind="text: $data.q.answer.textCopy"></strong>. 
+            </p>
+         </li>
+      </ul>
+
+   </div>
+
+{% endblock %}

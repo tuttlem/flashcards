@@ -1,0 +1,19 @@
+Flashcards
+==========
+
+A simple way to get the computer to do the task of flashcard testing for you.
+
+Currently supports:
+
+   - Sample size testing (question count)
+   - Duration testing (timer based)
+   - Text questions & answers
+
+Soon to come:
+
+   - Image based questions and answers
+   - Jeopardy mode where the answers become the questions
+   - Time challenge mode, keep the clock from expiring by answering questions
+   - More question sets (it's very nerdy at the moment)
+
+

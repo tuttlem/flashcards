@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% set active_page = "home" %}
+
+{% block content %}
+
+   <div class="jumbotron">
+      <h1>Test yo' self!</h1>
+      <p>Flashcards is a web application designed to test you as if someone were sitting in front of you showing you cards. The advantage with this application is, it won't get tired! You can tailor your tests with a swag of configuration options just to keep the testing experience a little interesting.</p>
+      <p><a href="{{ url_for( 'show_test' ) }}" class="btn btn-primary btn-lg" role="button">Start testing &raquo;</a></p>
+   </div>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{
+   "subjects": [
+      {
+         "name": "Sorting Complexities",
+         "file": "sorting.json"
+      },
+      {
+         "name": "Search Complexities",
+         "file": "searching.json"
+      },
+      {
+         "name": "Data Structure Complexities",
+         "file": "structures.json"
+      }
+   ],
+
+   "types": [
+      {
+         "name": "Standard"
+      },
+      {
+         "name": "Speed Test"
+      }
+   ],
+
+   "sampleSizes": [
+      {
+         "name": "10 questions",
+         "count": 10
+      },
+      {
+         "name": "20 questions",
+         "count": 20
+      },
+      {
+         "name": "50 questions",
+         "count": 50
+      }
+   ],
+
+   "durations": [
+      {
+         "name": "Sprint!",
+         "duration": 10,
+         "description": "10 seconds of stress! Smash through your questions using your instincts to guide you."
+      },
+      {
+         "name": "Casual",
+         "duration": 30,
+         "description": "A moderate test size of half a minute to leave you a little breathing space between questions."
+      },
+      {
+         "name": "Seems like forever",
+         "duration": 60,
+         "description": "How many question can you get right in one minute? Triple figures puts you at Jedi status."
+      }
+   ]
+   
+}
