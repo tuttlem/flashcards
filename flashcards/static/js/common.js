@@ -12,6 +12,7 @@ var FC = (function ($) {
          type: type,
          complete: fnComplete,
          data: data,
+         dataType: "json",
          error: fnError,
          success: fnSuccess
       });
