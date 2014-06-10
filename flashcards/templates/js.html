@@ -2,7 +2,7 @@
 <script type="text/javascript">
 
    var URI = {
-      retrieveTypes: "{{ url_for("retrieve_types") }}",
+      retrieveTypes: "{{ url_for("static", filename="data/types.json") }}",
 
       data: "{{ url_for("static", filename="data") }}"
    };
